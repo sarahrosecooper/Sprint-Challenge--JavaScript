@@ -33,7 +33,7 @@ Edit this document to include your answers after each question. Make sure to lea
 -a HIGHER ORDER FUNCTION is a function that takes in another function as an argument whereas a -callback function- is the function that is passed into another function to be -called on- later.
 
 3. What is closure?
-A closure gives you access to an outer functions COPE from an inner function.
+A closure gives you access to an outer functions SCOPE from an inner function.
 
 4. Describe the four rules of the 'this' keyword.
 The four rules are as follows:
