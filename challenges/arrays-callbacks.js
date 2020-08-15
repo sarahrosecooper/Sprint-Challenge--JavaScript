@@ -120,7 +120,7 @@ let populationTotal = zooAnimals.reduce((acc, pop) => {
   return (acc += pop.population);
 }, 0);
 console.log(
-  "the answer to arrays & callbacks request 4 is: the population of all of the animals combined is,",
+  "the answer to arrays & callbacks request 4 is: the population of all of the animals combined is:",
   populationTotal
 );
 
