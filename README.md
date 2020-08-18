@@ -25,14 +25,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+ - .map returns a brand new array with transformed elements that is always the same length as the original array with
+ the same amount of data.
+ - .forEach searches through each item just like .map but you will have to give it direction for what you want to do with the results or it will return undefined.
 
 2. Explain the difference between a callback and a higher order function.
+-a HIGHER ORDER FUNCTION is a function that takes in another function as an argument whereas a -callback function- is the function that is passed into another function to be -called on- later.
 
 3. What is closure?
+A closure gives you access to an outer functions SCOPE from an inner function.
 
 4. Describe the four rules of the 'this' keyword.
+The four rules are as follows:
+1.) global context: when no implicit or explicit binding is supplied then the default binding applies which is whatever context you are currently working in for instance, this could point to the object that is console.log itself
+2.) implicit binding: looking to the left of the dot to see where the "this" is pointing
+3.) explicit binding: means exactly what it states, that "this" is basically EXPLICITLY defined, either by call or apply.
+4.) bind: bind creates a new function off of the original function, able to be customized
 
 5. Why do we need super() in an extended class?
+You need super() because without it you do not have access to the parent class, you need it to access the properties and methods of the parent properties to call the constructor.
 
 ### Task 1 - Project Set up
 
